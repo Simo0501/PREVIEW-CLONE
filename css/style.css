@@ -18,6 +18,10 @@
 .row-header-container i{
   color: #EAD1FF;
 }
+.row-header-container i{
+  font-size: 15px;
+  padding-top: 0.3rem;
+}
 .row-header-container{
   padding-bottom: 1rem;
   border-bottom: 1px solid #9B0DFF;
