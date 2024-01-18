@@ -24,6 +24,21 @@
   border-bottom: 1px solid #9B0DFF;
   background-color: #9100FF;
 }
+@media screen and (max-width: 992px){
+  .row-header-container .col-lg-3 span{
+    display: none;
+  }
+}
+@media screen and (min-width: 992px){
+  .row-header-container .col-lg-3 .utility{
+    display: none;
+  }
+}
+@media screen and (max-width: 992px){
+  .row-header-container .col-lg-3 .utility{
+    display: block;
+  }
+}
 .row-header{
   background-color: #9100FF;
   padding-top: 2rem;
