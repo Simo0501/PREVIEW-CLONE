@@ -44,3 +44,11 @@
 .row-header .action-list i{
   font-size: small;
 }
+.jumbo{
+  height: 500px;
+  padding-top: 0;
+  background-color: #9100FF;
+}
+.jumbo .col-lg-5 svg{
+  padding-bottom: 23rem;
+}
