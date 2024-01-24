@@ -19,34 +19,27 @@
 .row-header-container i{
   color: #EAD1FF;
 }
+
+/* .row-header */
+
 .header-container img{
   width: 120px;
   height: 50px;
-  margin-right: 1.5rem;
-} 
-.row-header .action-list,
-.row-header .action-list a{
+}
+.header-container .list-inline .list-inline-item a{
   list-style-type: none;
   text-decoration: none;
-  list-style: none;
-  gap: 1rem;
-  color: #EAD1FF;
+  color: white;
 }
-.row-header .action-list i{
-  font-size: small;
+.header-container .list-inline .list-inline-item i{
+  margin-left: 0.5rem;
 }
-@media screen and (max-width: 1200px){
-  .row-header .action-list-item .first{
-    display: none;
-  }
+.header-container .list-inline .list-inline-item{
+  margin-top: 0.7rem;
 }
-@media screen and (max-width: 992px){
-  .row-header .action-list-item,
-  .row-header .action-list .btn-lg,
-  .row-header .col-lg-1,
-  .row-header .col-lg-2{
-    display: none;
-  }
+.header-container .col-lg-6 .bars{
+  color: white;
+  font-size: large;
 }
 .jumbo{
   height: 500px;
