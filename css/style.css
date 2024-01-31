@@ -108,7 +108,7 @@ body{
 .row-card{
   flex-wrap: wrap;
 }
-.container-card .row .col-6{
+.container-card .row .col-sm-12{
   background-color: #FFFFFF;
   margin-top: 3rem;
 }
@@ -123,6 +123,11 @@ body{
   margin: 0 auto;
 }
 .row .card{
-  width: 80%;
-  
+  width: 85%;
+
+}
+@media screen and (max-width: 1199px) {
+  .container-card .row .card{
+    width: 100%;
+  }
 }
