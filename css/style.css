@@ -167,4 +167,60 @@ body{
   background-color: #d7f0e5;
   padding: 0.5rem;
 }
+.container-change .row .col-8 .build{
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: #36B37E;
+  background-color: #d7f0e5;
+  padding: 0.5rem;
+  font-size: small;
+  font-weight: 700;
+}
+.container-change .row-built .col-lg-4 .fa-html5{
+  background-color: #A500FF;
+  color: white;
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 100%;
+}
+.container-change .row-built .col-lg-4 .fa-node-js{
+  background-color: #FFC300;
+  color: white;
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 100%;
+}
+.container-change .row-built .col-lg-4 .fa-thumbs-up{
+  background-color: #0089D9;
+  color: white;
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 100%;
+}
+.container-change .row-built .card{
+  width: 90%;
+}
+@media screen and (max-width: 992px) {
+  .row-built .col-sm-12 .card{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  .row-built .col-sm-12 .card i{
+    padding-bottom: 1rem;
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  .row-built .col-sm-12 .card-icon{
+    display: flex;
+    align-items: center;
+
+  }
+  
+}
 
