@@ -223,4 +223,40 @@ body{
   }
   
 }
-
+.container-violet{
+  background-color: #9D00FF;
+}
+.container-violet .container .row h2{
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.container-violet .container .row p{
+  color: white;
+  line-height: 2.2rem;
+  font-size: large;
+  
+}
+.container-violet .container .row .btn-black{
+  color: white;
+  background-color: #273444;
+  cursor: pointer;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  border: none;
+  
+}
+.container-violet .container .row .btn-white{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  border: none;
+}
+@media screen and (max-width: 992px) {
+  .container-violet .row .col-lg-2{
+    display: none;
+  }
+  
+}
