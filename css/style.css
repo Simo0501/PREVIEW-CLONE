@@ -116,8 +116,13 @@ body{
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  margin-top: 5rem;
 }
 .row .card img{
   text-align: center;
   margin: 0 auto;
+}
+.row .card{
+  width: 80%;
+  
 }
