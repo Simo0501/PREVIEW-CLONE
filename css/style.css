@@ -105,18 +105,16 @@ body{
   width: 100%;
   background-color: #FAFBFE;
 }
-.row-card{
-  flex-wrap: wrap;
-}
 .container-card .row .col-sm-12{
-  background-color: #FFFFFF;
+  background-color: #FAFBFE;
   margin-top: 3rem;
 }
 .row{
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  margin-top: 5rem;
+  padding-bottom: 4rem !important;
+  margin-top: 5rem !important;
 }
 .row .card img{
   text-align: center;
@@ -131,3 +129,38 @@ body{
     width: 100%;
   }
 }
+.container-card .col-6 .violet{
+  color: #6E00FF;
+}
+.container-change .row .col-5 p{
+  color:#bdc1c5 ;
+}
+.container-change .row .col-5 a{
+  font-size: 1.2rem;
+  color: #6E00FF;
+}
+.container-change .row .col-5 .fa-store-alt{
+  font-size: 1rem;
+  color: #6E00FF;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: #e2ccff;
+  padding: 0.5rem;
+}
+.container-change .row .col-5 .fa-palette{
+  font-size: 1rem;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: #d7f0e5;
+  color: #FFAB00;
+  padding: 0.5rem;
+}
+.container-change .row .col-5 .fa-cog{
+  font-size: 1rem;
+  color:#36B37E ;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: #d7f0e5;
+  padding: 0.5rem;
+}
+
