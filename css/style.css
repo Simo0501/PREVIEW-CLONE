@@ -241,7 +241,6 @@ body{
   color: white;
   background-color: #273444;
   cursor: pointer;
-  margin-left: 15rem;
   margin-top: 2rem;
   border: none;
   
@@ -251,12 +250,19 @@ body{
   background-color: white;
   cursor: pointer;
   margin-top: 2rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
   border: none;
 }
 @media screen and (max-width: 992px) {
-  .container-violet .row .col-lg-2{
+  .container-violet .container .row .col-lg-2{
     display: none;
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  .container-violet .row .btn-container{
+    justify-content: flex-start !important;
+    
   }
   
 }
