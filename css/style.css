@@ -225,6 +225,7 @@ body{
 }
 .container-violet{
   background-color: #9D00FF;
+  height: 600px;
 }
 .container-violet .container .row h2{
   color: white;
@@ -259,4 +260,27 @@ body{
   }
   
 }
+.container-customers .container .row-customers{
+  margin-left: 4rem;
+} 
+.container-customers .container .row p{
+  color:#858282 
+}
+.container-customers .container .row .card{
+  width: 70%;
+}
+.container-customers .container .row .card img{
+  border-radius: 50px;
+  margin-right: 1rem;
+}
+.container-customers .container .row .card span{
+  font-size: small;
+}
+.container-customers .container .row .card h5{
+  line-height: 5px !important;
+  margin-top: 0.6rem;
+  font-size: medium;
+  margin-right: 2rem;
+}
+
 
