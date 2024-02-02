@@ -291,5 +291,8 @@ body{
   font-size: medium;
   margin-right: 2rem;
 }
+.container-customers .row-customers .list-star i{
+  color: yellow;
+}
 
 
