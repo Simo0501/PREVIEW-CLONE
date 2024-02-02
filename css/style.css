@@ -16,9 +16,15 @@ body{
 .mt-7{
   margin-top: 10rem;
 }
+.mt-8{
+  margin-top: 6rem;
+}
 .py-6{
   padding-bottom: 7rem;
   padding-top: 5rem;
+}
+.mb-6{
+  margin-bottom: 6rem;
 }
 .row-header-container{
   border-bottom: 1px solid #CB007F;
@@ -109,7 +115,7 @@ body{
   background-color: #FAFBFE;
   margin-top: 3rem;
 }
-.row{
+.row-card{
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -166,6 +172,9 @@ body{
   border-radius: 100%;
   background-color: #d7f0e5;
   padding: 0.5rem;
+}
+.container-change .row-build-tool{
+  margin-top: 5rem;
 }
 .container-change .row .col-8 .build{
   border: 1px solid transparent;
