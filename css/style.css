@@ -318,7 +318,7 @@ body{
   width: 100%;
 }
 .container-support-page{
-  height: 500px;
+  height: 800px;
   background-color: #A800FF;
   margin-top: 5rem;
 }
@@ -338,5 +338,28 @@ body{
   background-color: #6E00FF;
   border-radius: 0.5rem;
 }
+.container-support-page .row-footer .col-lg-4 p{
+  color: white;
+}
+.container-support-page .row-footer .col-lg-2  .list-item a{
+  color: white;
+  text-decoration: none;
+}
+.container-support-page .row-footer .col-lg-2 h6{
+  color: white;
+  margin-bottom: 2rem;
+}
+.row-footer{
+  border-bottom: 1px solid #9931f5;
+}
+.container-support-page .row-footer-end .col-lg-4 a{
+  text-decoration: none;
+  color: white;
+}
+.container-support-page .row-footer-end .col-lg-3 a{
+  text-decoration: none;
+  color: white;
+}
+
 
 
