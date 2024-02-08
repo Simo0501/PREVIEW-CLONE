@@ -314,6 +314,29 @@ body{
 .container-customers .container .row .card-social h5{
   line-height: 10px;
 }
-
+.container-customers .container .row .card-social{
+  width: 100%;
+}
+.container-support-page{
+  height: 500px;
+  background-color: #A800FF;
+  margin-top: 5rem;
+}
+.container-support-page .row-support .card-support i{
+  font-size: 3rem;
+  color: white;
+}
+.container-support-page .row-support .card-support-blu{
+  background-color: #272C44;
+  border-radius: 0.5rem;
+}
+.container-support-page .row-support .card-support h5,
+.container-support-page .row-support .card-support p{
+  color: white;
+}
+.container-support-page .row-support .card-support-white{
+  background-color: #6E00FF;
+  border-radius: 0.5rem;
+}
 
 
