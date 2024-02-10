@@ -325,6 +325,14 @@ body{
   font-size: 3rem;
   color: white;
 }
+.container-support-page .row-support .card-support{
+  width: 100%;
+}
+@media screen and (max-width: 768px){
+  .container-support-page .row-support .card-support{
+    margin-top: 1.5rem;
+  } 
+}
 .container-support-page .row-support .card-support-blu{
   background-color: #272C44;
   border-radius: 0.5rem;
@@ -359,6 +367,34 @@ body{
   text-decoration: none;
   color: white;
 }
-
+.container-support-page .row-footer .col-lg-2 .list-unstyled .list-item{
+  margin-bottom: 1rem;
+}
+@media screen  and (max-width: 992px){
+  .container-support-page .row-footer-end .col-sm-12{
+    text-align: center;
+  }
+  
+}
+@media screen  and (max-width: 992px){
+  .container-support-page .row-footer .list-item,
+  .container-support-page .row-footer h6{
+    margin-left: 2rem;
+  }
+  
+}
+@media screen  and (max-width: 768px){
+  .container-support-page .row-footer .list-item,
+  .container-support-page .row-footer h6{
+    margin-left: 0;
+  }
+  
+}
+@media screen  and (max-width: 768px){
+  .container-support-page .row-footer h6{
+    margin-top: 2.5rem;
+  }
+  
+}
 
 
