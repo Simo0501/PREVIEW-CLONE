@@ -50,23 +50,23 @@ body{
 
 .header-container img{
   width: 120px;
-  height: 50px;
-  margin-top: 0.3rem;
 }
-.header-container .list-inline .list-inline-item a{
+.header-container .list-inline-block .list-inline-item a{
   list-style-type: none;
   text-decoration: none;
   color: white;
 }
-.header-container .list-inline .list-inline-item i{
+.header-container .list-inline-block .list-inline-item i{
   margin-left: 0.5rem;
-}
-.header-container .list-inline .list-inline-item{
-  margin-top: 0.8rem;
 }
 .header-container .col-lg-6 .bars{
   color: white;
   font-size: 20px;
+}
+@media screen and (max-width: 1200px){
+  .header-container .row-header .list-inline-item .whats{
+    display: none;
+  }   
 }
 .jumbo{
   height: 500px;
